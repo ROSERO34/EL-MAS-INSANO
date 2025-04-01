@@ -1,0 +1,70 @@
+/*index.css*/
+body {
+    background-color: rgba(0, 255, 191, 0.212);
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+table{
+    background-color: rgba(255, 0, 0, 0.959);
+    text-align: center;
+    width: 400px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px rgba(224, 29, 29, 0.3),
+                -5px -5px 15px rgba(255, 255, 255, 0.5);
+    border-style: double;
+}
+div {
+    background-color: rgb(255, 136, 0);
+    text-align: center;
+    width: 400px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px rgba(224, 29, 29, 0.3),
+                -5px -5px 15px rgba(255, 255, 255, 0.5);
+    border-style: double;
+}
+img {
+    width: 165px;
+    height: 165px;
+    border-radius: 50%;
+    display:inline;
+    margin: 0 auto 15px;
+    border: 3px solid rgb(196, 251, 255);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.Galeria {
+background-color: rgb(255, 94, 0);
+text-align:center;
+width: 400px;
+padding: 20px;
+border-radius: 15px;
+box-shadow: 5px 5px 15px rgba(224, 29, 29, 0.3),
+            -5px -5px 15px rgba(255, 255, 255, 0.5);
+border-style: solid;
+}
+.luis:hover {
+   transform: scale(1.1); 
+}
+.enlaces:hover {
+    transform:scale(1.1) ;
+}
+.Habilidades {
+    background-color: rgb(255, 136, 0);
+    text-align:center;
+    width: 400px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px rgba(224, 29, 29, 0.3),
+                -5px -5px 15px rgba(255, 255, 255, 0.5);
+    border-style: solid;
+}
+.Alexis:hover {
+    transform: scale(1.1);
+}
